@@ -26,4 +26,13 @@ def menu():
       n = int(input("Ingresa un numero natural: "))
       numerosnaturales(n)
       print(f"El numero natural de {n} es {numerosnaturales(n)}")
+  if opcion == 3:
+      print("No se que es el fibonacci")
+  if opcion == 4:
+      print("cuantas veces aparece una letra en una palabra")
+  if opcion == 5:
+      print("invertir texto")
+  if opcion == 6:
+      print("calcular la potencia de un numero")
+
 menu()
