@@ -8,3 +8,5 @@ def menu():
   print("6.calcular potencia")
   print("7.Salir")
 opcion = int(input("Ingresa una opcion: "))
+if opcion == 1:
+    print("elegiste opcion 1")
