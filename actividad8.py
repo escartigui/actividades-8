@@ -23,4 +23,7 @@ def menu():
           return 0
         else :
             return n + numerosnaturales(n-1)
+      n = int(input("Ingresa un numero natural: "))
+      numerosnaturales(n)
+      print(f"El numero natural de {n} es {numerosnaturales(n)}")
 menu()
