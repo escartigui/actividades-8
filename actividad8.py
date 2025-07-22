@@ -33,6 +33,12 @@ def menu():
   if opcion == 5:
       print("invertir texto")
   if opcion == 6:
-      print("calcular la potencia de un numero")
-
+      def poten(base,expo):
+          if expo == 0:
+              return 1
+          else:
+              return base * poten(base,expo-1)
+      base = int(input("Ingresa un numero base: "))
+      expo = int(input("Ingresa un numero exponente: "))
+      print(f"el potencia de {base} es {poten(base,expo)}")
 menu()
