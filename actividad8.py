@@ -11,7 +11,6 @@ def menu():
   if opcion == 1:
     def factorial(n):
         if n <= 0:
-            print("el numero no puede ser negativo")
             return 1
         else :
             return n * factorial(n-1)
@@ -21,7 +20,6 @@ def menu():
   if opcion == 2:
       def numerosnaturales(n):
         if n <= 0:
-          print("el numero no es natural")
           return 0
         else :
             return n + numerosnaturales(n-1)
