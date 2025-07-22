@@ -17,3 +17,5 @@ def menu():
     n = int(input("Ingresa un numero: "))
     factorial(n)
     print(f"el factorial de {n} es {factorial(n)}")
+  if opcion == 2:
+menu()
