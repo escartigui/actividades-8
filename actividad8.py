@@ -41,4 +41,5 @@ def menu():
       base = int(input("Ingresa un numero base: "))
       expo = int(input("Ingresa un numero exponente: "))
       print(f"el potencia de {base} es {poten(base,expo)}")
+      #si se puede, yo soy fuerte
 menu()
