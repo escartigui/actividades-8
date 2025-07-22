@@ -18,4 +18,9 @@ def menu():
     factorial(n)
     print(f"el factorial de {n} es {factorial(n)}")
   if opcion == 2:
+      def numerosnaturales(n):
+        if n <= 0:
+          return 0
+        else :
+            return n + numerosnaturales(n-1)
 menu()
