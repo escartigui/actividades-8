@@ -9,4 +9,4 @@ def menu():
   print("7.Salir")
 opcion = int(input("Ingresa una opcion: "))
 if opcion == 1:
-    print("elegiste opcion 1")
+    n = int(input("Ingresa un numero: "))
