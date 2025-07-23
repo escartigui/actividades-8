@@ -1,4 +1,5 @@
 def menu():
+ while True:
   print("MENU")
   print("1. factorial")
   print("2.suma de primeros numeros naturales")
@@ -8,7 +9,7 @@ def menu():
   print("6.calcular potencia")
   print("7.Salir")
   opcion = int(input("Ingresa una opcion: "))
-  if opcion == 1:
+  if opcion == "1":
     def factorial(n):
         if n <= 0:
             return 1
@@ -17,7 +18,7 @@ def menu():
     n = int(input("Ingresa un numero: "))
     factorial(n)
     print(f"el factorial de {n} es {factorial(n)}")
-  if opcion == 2:
+  if opcion == "2":
       def numerosnaturales(n):
         if n <= 0:
           return 0
@@ -26,13 +27,13 @@ def menu():
       n = int(input("Ingresa un numero natural: "))
       numerosnaturales(n)
       print(f"El numero natural de {n} es {numerosnaturales(n)}")
-  if opcion == 3:
+  if opcion == "3":
       print("No se que es el fibonacci")
-  if opcion == 4:
+  if opcion == "4":
       print("cuantas veces aparece una letra en una palabra")
-  if opcion == 5:
+  if opcion == "5":
       print("invertir texto")
-  if opcion == 6:
+  if opcion == "6":
       def poten(base,expo):
           if expo == 0:
               return 1
@@ -41,5 +42,10 @@ def menu():
       base = int(input("Ingresa un numero base: "))
       expo = int(input("Ingresa un numero exponente: "))
       print(f"el potencia de {base} es {poten(base,expo)}")
-      #si se puede, yo soy fuerte
+
+
+  if opcion == "7":
+      print("\nHasta que nos volvamos a ver")
+      break
+
 menu()
